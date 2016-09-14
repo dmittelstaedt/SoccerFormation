@@ -62,12 +62,20 @@ public class SimpleProperties {
 				Player cyrill = new Player("Cyrill", 6, 7, 6, 6, 8, 8, 7);
 				players.add(cyrill);
 			}
+			if (Integer.parseInt(properties.getProperty("julian")) == 1){
+				Player cyrill = new Player("Julian", 7, 7, 6, 7, 6, 7, 8);
+				players.add(cyrill);
+			}
 			if (Integer.parseInt(properties.getProperty("felix")) == 1){
 				Player felix = new Player("Felix", 7, 6, 8, 6, 6, 6, 6);
 				players.add(felix);
 			}
 			if (Integer.parseInt(properties.getProperty("oliver")) == 1){
 				Player oliver = new Player("Oliver", 7, 6, 7, 6, 6, 6, 7);
+				players.add(oliver);
+			}
+			if (Integer.parseInt(properties.getProperty("rindra")) == 1){
+				Player oliver = new Player("Rindra", 7, 6, 5, 6, 7, 6, 6);
 				players.add(oliver);
 			}
 			if (Integer.parseInt(properties.getProperty("robert")) == 1){
